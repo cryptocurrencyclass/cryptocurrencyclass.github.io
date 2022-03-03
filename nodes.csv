@@ -1,0 +1,5 @@
+Node Type, Database, Copy of blockchain, Sync potential, Use Case
+Archival node, A snapshot of every block, All blocks, Validate all blocks, A block explorer
+Full node, A snapshot of the latest block, All blocks, Validate all blocks, Support serving blockchain data on the p2p network,
+Pruned node, A snapshot of the latest block, Only blocks at the chain's tip, Validate all blocks, Reduce storage requirements to validate blockchain
+Light client, No copy of the database, All block headers, Cannot validate, Embedded devices
